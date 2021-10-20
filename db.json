@@ -1,0 +1,30 @@
+{
+    "posts": [{
+            "id": 1,
+            "title": "json-server",
+            "author": "typicode"
+        },
+        {
+            "id": 2,
+            "title": "new leaf",
+            "author": "nintendo"
+        }
+    ],
+    "comments": [{
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+    }],
+    "profile": {
+        "name": "typicode"
+    },
+    "users": [{
+        "id": 1,
+        "first_name": "Mel",
+        "last_name": "Lagunas",
+        "email": "mlagunas@oregonstate.edu",
+        "password": "hello-kitty123",
+        "admin": true,
+        "create_date": "2021-10-21"
+    }]
+}
